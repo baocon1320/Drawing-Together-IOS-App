@@ -7,12 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		762D98475139044B26B845FB /* Pods_DrawAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B34F0FA5D49DD994839121F /* Pods_DrawAppTests.framework */; };
+		8535FEE13632118E9FADDFFE /* Pods_DrawApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C678EE24F74F8A4296B710 /* Pods_DrawApp.framework */; };
+		DC3680C3220B9C240060AB4D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC3680C2220B9C240060AB4D /* GoogleService-Info.plist */; };
 		DC4CCAE221F052DC009EF668 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4CCAE121F052DC009EF668 /* AppDelegate.swift */; };
 		DC4CCAE421F052DC009EF668 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4CCAE321F052DC009EF668 /* ViewController.swift */; };
 		DC4CCAE721F052DC009EF668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4CCAE521F052DC009EF668 /* Main.storyboard */; };
 		DC4CCAE921F052DC009EF668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4CCAE821F052DC009EF668 /* Assets.xcassets */; };
 		DC4CCAEC21F052DC009EF668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4CCAEA21F052DC009EF668 /* LaunchScreen.storyboard */; };
 		DC4CCAF721F052DD009EF668 /* DrawAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4CCAF621F052DD009EF668 /* DrawAppTests.swift */; };
+		DC4F26B422271088008DCEF7 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4F26B322271088008DCEF7 /* UserInfoViewController.swift */; };
+		DC5395382213C94A00112A30 /* CanvasDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5395372213C94A00112A30 /* CanvasDetailTableViewCell.swift */; };
+		DC53953D2213EA4B00112A30 /* CanvasDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC53953C2213EA4B00112A30 /* CanvasDetail.swift */; };
+		DC5A5FA1220BF06000495B47 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5A5FA0220BF06000495B47 /* LoginViewController.swift */; };
+		DC5A5FA3220BFBDE00495B47 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5A5FA2220BFBDE00495B47 /* RegisterViewController.swift */; };
+		DC5A5FAA220C0A9100495B47 /* CanvasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5A5FA9220C0A9100495B47 /* CanvasTableViewController.swift */; };
+		DC607324223C130200B86B45 /* ScreenSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC607323223C130200B86B45 /* ScreenSnapshot.swift */; };
+		DC607326223C156C00B86B45 /* StackSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC607325223C156C00B86B45 /* StackSnapshot.swift */; };
+		DCBFFDCC2240BE3E00476D63 /* GestureInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBFFDCB2240BE3E00476D63 /* GestureInfo.swift */; };
+		DCF253252218DC040010B392 /* PenInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF253242218DC040010B392 /* PenInfo.swift */; };
+		DCF253272218E3880010B392 /* PenInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF253262218E3880010B392 /* PenInfoViewController.swift */; };
+		DCF253292219311F0010B392 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF253282219311F0010B392 /* User.swift */; };
+		DCF2532B2219321B0010B392 /* Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF2532A2219321B0010B392 /* Gesture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07B62BD5F0B8991D098859BD /* Pods-DrawApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrawApp/Pods-DrawApp.debug.xcconfig"; sourceTree = "<group>"; };
+		0AC582164139D0D449086D2D /* Pods-DrawAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrawAppTests/Pods-DrawAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		83C678EE24F74F8A4296B710 /* Pods_DrawApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrawApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98556E9DF4BE3C1209932035 /* Pods-DrawApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrawApp/Pods-DrawApp.release.xcconfig"; sourceTree = "<group>"; };
+		9B34F0FA5D49DD994839121F /* Pods_DrawAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrawAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCEE268AAB7534E5B98673A /* Pods-DrawAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrawAppTests/Pods-DrawAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		DC3680C2220B9C240060AB4D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DC4CCADE21F052DC009EF668 /* DrawApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC4CCAE121F052DC009EF668 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC4CCAE321F052DC009EF668 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +59,20 @@
 		DC4CCAF221F052DD009EF668 /* DrawAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC4CCAF621F052DD009EF668 /* DrawAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawAppTests.swift; sourceTree = "<group>"; };
 		DC4CCAF821F052DD009EF668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC4F26B322271088008DCEF7 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		DC5395372213C94A00112A30 /* CanvasDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasDetailTableViewCell.swift; sourceTree = "<group>"; };
+		DC53953C2213EA4B00112A30 /* CanvasDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasDetail.swift; sourceTree = "<group>"; };
+		DC5A5FA0220BF06000495B47 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DC5A5FA2220BFBDE00495B47 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		DC5A5FA4220BFEE300495B47 /* DrawApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DrawApp.entitlements; sourceTree = "<group>"; };
+		DC5A5FA9220C0A9100495B47 /* CanvasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasTableViewController.swift; sourceTree = "<group>"; };
+		DC607323223C130200B86B45 /* ScreenSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSnapshot.swift; sourceTree = "<group>"; };
+		DC607325223C156C00B86B45 /* StackSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackSnapshot.swift; sourceTree = "<group>"; };
+		DCBFFDCB2240BE3E00476D63 /* GestureInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureInfo.swift; sourceTree = "<group>"; };
+		DCF253242218DC040010B392 /* PenInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenInfo.swift; sourceTree = "<group>"; };
+		DCF253262218E3880010B392 /* PenInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenInfoViewController.swift; sourceTree = "<group>"; };
+		DCF253282219311F0010B392 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DCF2532A2219321B0010B392 /* Gesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8535FEE13632118E9FADDFFE /* Pods_DrawApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +88,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				762D98475139044B26B845FB /* Pods_DrawAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		166527559F165A25F87992E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07B62BD5F0B8991D098859BD /* Pods-DrawApp.debug.xcconfig */,
+				98556E9DF4BE3C1209932035 /* Pods-DrawApp.release.xcconfig */,
+				0AC582164139D0D449086D2D /* Pods-DrawAppTests.debug.xcconfig */,
+				BFCEE268AAB7534E5B98673A /* Pods-DrawAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4589EB176396C5972E3179BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83C678EE24F74F8A4296B710 /* Pods_DrawApp.framework */,
+				9B34F0FA5D49DD994839121F /* Pods_DrawAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DC4CCAD521F052DC009EF668 = {
 			isa = PBXGroup;
 			children = (
 				DC4CCAE021F052DC009EF668 /* DrawApp */,
 				DC4CCAF521F052DD009EF668 /* DrawAppTests */,
 				DC4CCADF21F052DC009EF668 /* Products */,
+				166527559F165A25F87992E8 /* Pods */,
+				4589EB176396C5972E3179BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,8 +138,12 @@
 		DC4CCAE021F052DC009EF668 /* DrawApp */ = {
 			isa = PBXGroup;
 			children = (
+				DC53953B2213EA1400112A30 /* Table Cell */,
+				DC5A5FAC220C0E4100495B47 /* Controllers */,
+				DC5A5FAB220C0E2000495B47 /* Models */,
+				DC5A5FA4220BFEE300495B47 /* DrawApp.entitlements */,
+				DC3680C2220B9C240060AB4D /* GoogleService-Info.plist */,
 				DC4CCAE121F052DC009EF668 /* AppDelegate.swift */,
-				DC4CCAE321F052DC009EF668 /* ViewController.swift */,
 				DC4CCAE521F052DC009EF668 /* Main.storyboard */,
 				DC4CCAE821F052DC009EF668 /* Assets.xcassets */,
 				DC4CCAEA21F052DC009EF668 /* LaunchScreen.storyboard */,
@@ -96,6 +161,41 @@
 			path = DrawAppTests;
 			sourceTree = "<group>";
 		};
+		DC53953B2213EA1400112A30 /* Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DC5395372213C94A00112A30 /* CanvasDetailTableViewCell.swift */,
+			);
+			path = "Table Cell";
+			sourceTree = "<group>";
+		};
+		DC5A5FAB220C0E2000495B47 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DC53953C2213EA4B00112A30 /* CanvasDetail.swift */,
+				DCF253242218DC040010B392 /* PenInfo.swift */,
+				DCF253282219311F0010B392 /* User.swift */,
+				DCF2532A2219321B0010B392 /* Gesture.swift */,
+				DC607323223C130200B86B45 /* ScreenSnapshot.swift */,
+				DC607325223C156C00B86B45 /* StackSnapshot.swift */,
+				DCBFFDCB2240BE3E00476D63 /* GestureInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DC5A5FAC220C0E4100495B47 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DC5A5FA0220BF06000495B47 /* LoginViewController.swift */,
+				DC5A5FA2220BFBDE00495B47 /* RegisterViewController.swift */,
+				DC5A5FA9220C0A9100495B47 /* CanvasTableViewController.swift */,
+				DC4F26B322271088008DCEF7 /* UserInfoViewController.swift */,
+				DC4CCAE321F052DC009EF668 /* ViewController.swift */,
+				DCF253262218E3880010B392 /* PenInfoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC4CCAFB21F052DD009EF668 /* Build configuration list for PBXNativeTarget "DrawApp" */;
 			buildPhases = (
+				E14D5B5B411799F736407063 /* [CP] Check Pods Manifest.lock */,
 				DC4CCADA21F052DC009EF668 /* Sources */,
 				DC4CCADB21F052DC009EF668 /* Frameworks */,
 				DC4CCADC21F052DC009EF668 /* Resources */,
+				06F0DC5B4E4256400E8219E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC4CCAFE21F052DD009EF668 /* Build configuration list for PBXNativeTarget "DrawAppTests" */;
 			buildPhases = (
+				11C497E7AF126C03B5DC371F /* [CP] Check Pods Manifest.lock */,
 				DC4CCAEE21F052DD009EF668 /* Sources */,
 				DC4CCAEF21F052DD009EF668 /* Frameworks */,
 				DC4CCAF021F052DD009EF668 /* Resources */,
@@ -146,6 +249,17 @@
 				TargetAttributes = {
 					DC4CCADD21F052DC009EF668 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					DC4CCAF121F052DD009EF668 = {
 						CreatedOnToolsVersion = 10.0;
@@ -180,6 +294,7 @@
 				DC4CCAEC21F052DC009EF668 /* LaunchScreen.storyboard in Resources */,
 				DC4CCAE921F052DC009EF668 /* Assets.xcassets in Resources */,
 				DC4CCAE721F052DC009EF668 /* Main.storyboard in Resources */,
+				DC3680C3220B9C240060AB4D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,13 +307,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06F0DC5B4E4256400E8219E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DrawApp/Pods-DrawApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrawApp/Pods-DrawApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11C497E7AF126C03B5DC371F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DrawAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E14D5B5B411799F736407063 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DrawApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DC4CCADA21F052DC009EF668 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC5A5FA1220BF06000495B47 /* LoginViewController.swift in Sources */,
 				DC4CCAE421F052DC009EF668 /* ViewController.swift in Sources */,
+				DC5395382213C94A00112A30 /* CanvasDetailTableViewCell.swift in Sources */,
+				DCF2532B2219321B0010B392 /* Gesture.swift in Sources */,
+				DCF253252218DC040010B392 /* PenInfo.swift in Sources */,
+				DC4F26B422271088008DCEF7 /* UserInfoViewController.swift in Sources */,
+				DCBFFDCC2240BE3E00476D63 /* GestureInfo.swift in Sources */,
+				DC53953D2213EA4B00112A30 /* CanvasDetail.swift in Sources */,
+				DC5A5FAA220C0A9100495B47 /* CanvasTableViewController.swift in Sources */,
+				DC607326223C156C00B86B45 /* StackSnapshot.swift in Sources */,
 				DC4CCAE221F052DC009EF668 /* AppDelegate.swift in Sources */,
+				DC607324223C130200B86B45 /* ScreenSnapshot.swift in Sources */,
+				DCF253272218E3880010B392 /* PenInfoViewController.swift in Sources */,
+				DC5A5FA3220BFBDE00495B47 /* RegisterViewController.swift in Sources */,
+				DCF253292219311F0010B392 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,15 +561,18 @@
 		};
 		DC4CCAFC21F052DD009EF668 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07B62BD5F0B8991D098859BD /* Pods-DrawApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DrawApp/DrawApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UC88BZV437;
 				INFOPLIST_FILE = DrawApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example..DrawApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example..-DrawApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -375,15 +581,18 @@
 		};
 		DC4CCAFD21F052DD009EF668 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98556E9DF4BE3C1209932035 /* Pods-DrawApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DrawApp/DrawApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UC88BZV437;
 				INFOPLIST_FILE = DrawApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example..DrawApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example..-DrawApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -392,6 +601,7 @@
 		};
 		DC4CCAFF21F052DD009EF668 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AC582164139D0D449086D2D /* Pods-DrawAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +622,7 @@
 		};
 		DC4CCB0021F052DD009EF668 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFCEE268AAB7534E5B98673A /* Pods-DrawAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

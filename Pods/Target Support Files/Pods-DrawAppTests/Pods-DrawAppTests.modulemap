@@ -1,0 +1,6 @@
+framework module Pods_DrawAppTests {
+  umbrella header "Pods-DrawAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
