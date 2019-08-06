@@ -1,7 +1,7 @@
-#Bao Nguyen
-##Draw-Together app
+# Bao Nguyen
+## Draw-Together app
 
-###Login: You can register new user account or use my test account: 
+### Login: You can register new user account or use my test account: 
 
 * account1 : bao@yahoo.com password: bongia
 * account2 : baocon1320@yahoo.com	password: bongia
